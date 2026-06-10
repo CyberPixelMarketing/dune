@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DUNE | AI Services & Mobile App Development Company in Dubai, UAE</title>
-<meta name="description" content="DUNE is a Dubai-based AI services and mobile app development company. Custom mobile applications, machine learning services, AI solutions & digital transformation. Book a free discovery call.">
+<meta name="description" content="DUNE is a UAE-based AI services and mobile app development company. Custom mobile applications, machine learning services, AI solutions & digital transformation. Book a free discovery call.">
 <meta name="keywords" content="mobile app development, AI services, custom mobile applications, AI solutions, app development company, machine learning services, digital transformation, software development agency, Dubai, UAE">
 <meta name="robots" content="index, follow">
 <meta name="author" content="DUNE AI">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://duneai.ae/">
 <meta property="og:title" content="DUNE | AI Services & Mobile App Development in Dubai">
-<meta property="og:description" content="Innovation with Confidence. Impact Without Delay. Advanced AI & mobile app development solutions from Dubai, UAE.">
+<meta property="og:description" content="Innovation with Confidence. Impact Without Delay. Advanced AI & mobile app development solutions from the UAE.">
 <meta property="og:image" content="https://duneai.ae/og-image.png">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="ar_AE">
@@ -42,7 +42,7 @@
       "email": "info@duneai.ae",
       "telephone": "+971522346020",
       "slogan": "Innovation with Confidence. Impact Without Delay.",
-      "foundingDate": "2019",
+      "foundingDate": "2015",
       "sameAs": ["https://instagram.com/duneai"],
       "address": {"@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE"}
     },
@@ -213,7 +213,7 @@ html[dir="rtl"] .learn-link svg{transform:scaleX(-1)}
 /* ============ STATS ============ */
 .stats{background:linear-gradient(135deg,var(--navy-deep),var(--navy) 60%,var(--navy-soft));position:relative;overflow:hidden;color:#fff;padding:64px 0}
 .stats::after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(201,169,97,.14) 1px,transparent 1px);background-size:30px 30px;opacity:.45}
-.stats-grid{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:18px;z-index:1}
+.stats-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;z-index:1}
 .stat{text-align:center;padding:22px 10px;border-radius:14px;transition:background .3s}
 .stat:hover{background:rgba(255,255,255,.06)}
 .stat svg{width:28px;height:28px;color:var(--gold);margin:0 auto 12px;display:block}
@@ -360,6 +360,64 @@ footer h4{color:#fff;font-size:1rem;margin-bottom:18px;letter-spacing:.04em}
 .wa-float:hover .wa-tip,.wa-float:focus-visible .wa-tip{opacity:1;transform:translateX(0)}
 .wa-tip small{display:block;color:var(--gray);font-weight:500;direction:ltr}
 
+/* ============ OUR WORKS ============ */
+.works{background:var(--white)}
+.works-tabs{display:flex;gap:10px;margin:28px 0 34px;flex-wrap:wrap}
+.wtab{border:1.5px solid var(--line);background:var(--cream);color:var(--navy);font-weight:600;font-size:.92rem;padding:11px 24px;border-radius:999px;min-height:44px;transition:all .3s var(--ease)}
+.wtab:hover{border-color:var(--gold);color:var(--gold)}
+.wtab.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.work-card{background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease);display:flex;flex-direction:column}
+.work-card:hover{transform:translateY(-7px);box-shadow:var(--shadow-md)}
+.work-card.hide{display:none}
+.work-thumb{aspect-ratio:4/3;background:linear-gradient(140deg,var(--navy-deep),var(--navy-soft));position:relative;overflow:hidden}
+.work-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+.work-card:hover .work-thumb img{transform:scale(1.06)}
+.work-thumb .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:800;font-size:2.1rem;letter-spacing:.12em}
+.work-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:9px;flex:1}
+.work-body h3{font-size:1.08rem}
+.work-cat{display:inline-flex;align-self:flex-start;background:var(--gold-dim);color:var(--navy);font-size:.74rem;font-weight:600;padding:4px 12px;border-radius:999px;letter-spacing:.04em}
+.work-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px}
+.work-links a{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;font-weight:600;color:var(--navy);border:1.5px solid var(--line);background:#fff;padding:8px 14px;border-radius:9px;min-height:38px;transition:all .25s}
+.work-links a:hover{border-color:var(--gold);color:var(--gold)}
+.work-links svg{width:13px;height:13px;flex:none}
+html[dir="rtl"] .work-links svg{transform:scaleX(-1)}
+
+/* ============ UAE ANIMATION ============ */
+.uae-anim{width:100%;height:auto;display:block}
+.skl{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1300;stroke-dashoffset:1300;animation:draw 2.8s var(--ease) forwards}
+.skl.d1{animation-delay:.25s}.skl.d2{animation-delay:.55s}.skl.d3{animation-delay:.85s}.skl.d4{animation-delay:1.15s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.star{fill:var(--gold-light);animation:twinkle 2.6s ease-in-out infinite}
+.star.s2{animation-delay:.7s}.star.s3{animation-delay:1.3s}.star.s4{animation-delay:1.9s}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+.moon{fill:var(--gold);animation:moonglow 4s ease-in-out infinite}
+@keyframes moonglow{0%,100%{filter:drop-shadow(0 0 3px rgba(201,169,97,.4));opacity:.85}50%{filter:drop-shadow(0 0 12px rgba(201,169,97,.95));opacity:1}}
+.flag-band{animation:flagwave 3s ease-in-out infinite;transform-origin:352px 200px}
+@keyframes flagwave{0%,100%{transform:skewY(0deg)}50%{transform:skewY(-1.6deg)}}
+.uae-caption{text-align:center;color:rgba(255,255,255,.72);font-size:.85rem;margin-top:14px;letter-spacing:.06em}
+
+/* ============ PRIVACY MODAL ============ */
+.modal-overlay{position:fixed;inset:0;background:rgba(17,32,58,.62);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:1300;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .3s}
+.modal-overlay.open{opacity:1;pointer-events:auto}
+.modal{background:#fff;width:min(780px,100%);max-height:86vh;border-radius:var(--radius-lg);display:flex;flex-direction:column;overflow:hidden;box-shadow:var(--shadow-lg);transform:translateY(26px) scale(.98);transition:transform .35s var(--ease)}
+.modal-overlay.open .modal{transform:none}
+.modal-head{display:flex;align-items:center;justify-content:space-between;padding:18px 26px;background:var(--navy-deep);color:#fff;flex:none}
+.modal-head h3{color:#fff;font-size:1.2rem}
+.modal-close{background:rgba(255,255,255,.12);border:none;color:#fff;width:42px;height:42px;border-radius:10px;font-size:1.45rem;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .25s}
+.modal-close:hover{background:var(--gold);color:var(--navy-deep)}
+.modal-body{padding:26px 30px;overflow-y:auto;font-size:.94rem}
+.modal-body h4{margin:22px 0 8px;font-size:1.03rem}
+.modal-body p{margin-bottom:10px;color:var(--gray)}
+.modal-body ul{margin:0 0 12px;padding-inline-start:22px;list-style:disc;color:var(--gray)}
+.modal-body li{margin-bottom:6px}
+.modal-body a{color:var(--navy);font-weight:600}
+.modal-body a:hover{color:var(--gold)}
+.pp-meta{font-size:.8rem;color:var(--gold);font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+html[lang="ar"] .pp-en{display:none}
+html:not([lang="ar"]) .pp-ar{display:none}
+body.modal-open{overflow:hidden}
+
 /* ============ RESPONSIVE ============ */
 @media (max-width:1024px){
   .hero-grid{grid-template-columns:1fr;text-align:center}
@@ -368,8 +426,8 @@ footer h4{color:#fff;font-size:1rem;margin-bottom:18px;letter-spacing:.04em}
   .hero-visual{margin-top:10px}
   .why-grid,.consult-grid,.contact-grid,.loc-grid{grid-template-columns:1fr;gap:36px}
   .why-quote{position:static;display:inline-block;margin-top:18px}
-  .services-grid,.sol-grid{grid-template-columns:repeat(2,1fr)}
-  .stats-grid{grid-template-columns:repeat(3,1fr)}
+  .services-grid,.sol-grid,.works-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:760px){
   section{padding:56px 0}
@@ -377,10 +435,12 @@ footer h4{color:#fff;font-size:1rem;margin-bottom:18px;letter-spacing:.04em}
   .hamburger{display:flex}
   .lang-toggle .lt-label{display:none}
   .lang-toggle{padding:9px 13px}
-  .featured-grid,.services-grid,.sol-grid,.form-row{grid-template-columns:1fr}
+  .featured-grid,.services-grid,.sol-grid,.works-grid,.form-row{grid-template-columns:1fr}
   .stats-grid{grid-template-columns:repeat(2,1fr)}
-  .stats-grid .stat:last-child{grid-column:1/-1}
   .form-card{padding:26px 20px}
+  .modal-body{padding:20px 18px}
+  .works-tabs{gap:8px}
+  .wtab{padding:10px 18px;font-size:.86rem}
   .wa-float{bottom:22px;inset-inline-end:22px}
   .wa-tip{display:none}
   .footer-grid{grid-template-columns:1fr;gap:30px}
@@ -446,22 +506,53 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
       <h1 class="reveal in" data-i18n-html="hero_h1">Innovation with <span class="gold">Confidence.</span><br>Impact Without <span class="gold">Delay.</span></h1>
       <p class="hero-sub reveal in reveal-d1" data-i18n="hero_sub">We develop advanced solutions in the ever-evolving space of AI and Mobile App Development</p>
       <div class="hero-cta-row reveal in reveal-d2">
-        <a href="#contact" class="btn btn-gold" data-i18n="hero_cta">Book a Free Discovery Call</a>
+        <a href="https://wa.me/971522346020" target="_blank" rel="noopener" class="btn btn-gold" data-i18n="hero_cta">Book a Free Discovery Call</a>
         <a href="#services" class="btn btn-ghost" data-i18n="hero_cta2">Explore Services</a>
       </div>
       <div class="trust-badges reveal in reveal-d3">
-        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-i18n="badge_iso">ISO 9001 Certified</span></span>
-        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg><span data-i18n="badge_sec">ISO 27001 Security</span></span>
-        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.3L12 16.7l-6.2 4.5 2.4-7.3L2 9.4h7.6z"/></svg><span data-i18n="badge_rated">Top-Rated in Dubai</span></span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg><span data-i18n="badge_iso">Mobile App Development</span></span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4 4 4 0 0 1 4 4v4a4 4 0 0 1-4 4 4 4 0 0 1-8 0 4 4 0 0 1-4-4v-4a4 4 0 0 1 4-4 4 4 0 0 1 4-4z"/></svg><span data-i18n="badge_sec">AI Developments</span></span>
+        <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.3L12 16.7l-6.2 4.5 2.4-7.3L2 9.4h7.6z"/></svg><span data-i18n="badge_rated">Top-Rated in UAE</span></span>
       </div>
     </div>
     <div class="hero-visual reveal in reveal-d3">
       <div class="hero-card" id="heroCard">
         <div class="hc-chip chip-ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4 4 4 0 0 1 4 4v4a4 4 0 0 1-4 4 4 4 0 0 1-8 0 4 4 0 0 1-4-4v-4a4 4 0 0 1 4-4 4 4 0 0 1 4-4z"/></svg><span data-i18n="chip_ai">AI / ML</span></div>
-        <img src="data:image/webp;base64,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" alt="" aria-hidden="true">
-        <div class="hc-line"></div>
-        <div class="hc-line"></div>
-        <div class="hc-line"></div>
+        <svg class="uae-anim" viewBox="0 0 400 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated skyline of the United Arab Emirates">
+          <!-- stars -->
+          <circle class="star" cx="42" cy="42" r="2"/>
+          <circle class="star s2" cx="252" cy="55" r="1.8"/>
+          <circle class="star s3" cx="120" cy="26" r="1.6"/>
+          <circle class="star s4" cx="370" cy="86" r="1.8"/>
+          <circle class="star s2" cx="26" cy="98" r="1.5"/>
+          <circle class="star s3" cx="300" cy="30" r="2"/>
+          <!-- glowing moon -->
+          <circle class="moon" cx="338" cy="46" r="10"/>
+          <!-- Burj Al Arab -->
+          <path class="skl d1" d="M55 235 V150 Q57 95 108 88 L108 235"/>
+          <path class="skl d1" d="M70 235 V112 M55 150 H108"/>
+          <!-- Burj Khalifa -->
+          <path class="skl d2" d="M168 235 V190 h9 V150 h8 V110 h7 V80 L200 35 L208 80 V110 h7 V150 h8 V190 h9 V235"/>
+          <!-- surrounding towers -->
+          <path class="skl d3" d="M280 235 V160 L298 146 L316 160 V235 M290 235 V170 M306 235 V170"/>
+          <path class="skl d4" d="M126 235 V185 h24 V235 M246 235 V178 h20 V235"/>
+          <!-- window lights -->
+          <circle class="star s2" cx="196" cy="130" r="1.4"/>
+          <circle class="star s4" cx="204" cy="165" r="1.4"/>
+          <circle class="star s3" cx="298" cy="185" r="1.4"/>
+          <circle class="star" cx="81" cy="160" r="1.4"/>
+          <!-- ground line -->
+          <path class="skl" d="M18 235 H382"/>
+          <!-- UAE flag -->
+          <g class="flag-band">
+            <rect x="350" y="168" width="2.5" height="67" fill="var(--gold)"/>
+            <rect x="352.5" y="168" width="4.5" height="16" fill="#CE1126"/>
+            <rect x="357" y="168" width="16" height="5.4" fill="#00843D"/>
+            <rect x="357" y="173.4" width="16" height="5.3" fill="#F4F1EA"/>
+            <rect x="357" y="178.7" width="16" height="5.3" fill="#1A1A1A"/>
+          </g>
+        </svg>
+        <p class="uae-caption" data-i18n="uae_caption">Proudly serving the UAE since 2015</p>
         <div class="hc-chip chip-app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg><span data-i18n="chip_app">Mobile Apps</span></div>
       </div>
     </div>
@@ -480,13 +571,11 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
         <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9.5 2a3.5 3.5 0 0 0-3.45 2.9A4 4 0 0 0 3 8.5c0 .8.24 1.55.64 2.18A4 4 0 0 0 2 14a4 4 0 0 0 3.05 3.89A3.5 3.5 0 0 0 12 19.5v-14A3.5 3.5 0 0 0 9.5 2z"/><path d="M14.5 2a3.5 3.5 0 0 1 3.45 2.9A4 4 0 0 1 21 8.5c0 .8-.24 1.55-.64 2.18A4 4 0 0 1 22 14a4 4 0 0 1-3.05 3.89A3.5 3.5 0 0 1 12 19.5"/><path d="M12 8h2.5M12 13h3"/></svg></div>
         <h3 data-i18n="svc_ai_t">AI / ML</h3>
         <p data-i18n="svc_ai_d">Crafting smart algorithms, automating tasks, and scaling ML to spur swift business growth and insights.</p>
-        <a href="#contact" class="learn-link"><span data-i18n="learn">Learn More</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
       <article class="feature-card reveal reveal-d1">
         <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M10 5h4M11 18.5h2"/></svg></div>
         <h3 data-i18n="svc_app_t">Mobile App Development</h3>
         <p data-i18n="svc_app_d">Building scalable, high-performance mobile applications tailored to business needs, ensuring seamless user experience and rapid deployment.</p>
-        <a href="#contact" class="learn-link"><span data-i18n="learn">Learn More</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
     </div>
   </div>
@@ -495,58 +584,34 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
 <!-- ============ STATS ============ -->
 <section class="stats" aria-label="Key statistics">
   <div class="container stats-grid">
-    <div class="stat reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><div class="stat-num"><span class="count" data-target="100">0</span><span class="suffix">+</span></div><div class="stat-label" data-i18n="st_eng">Engineers in Team</div></div>
     <div class="stat reveal reveal-d1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="stat-num"><span class="count" data-target="80">0</span><span class="suffix">+</span></div><div class="stat-label" data-i18n="st_cust">Recurring Customers</div></div>
     <div class="stat reveal reveal-d2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg><div class="stat-num"><span class="count" data-target="50">0</span><span class="suffix">+</span></div><div class="stat-label" data-i18n="st_proj">Projects Delivered</div></div>
-    <div class="stat reveal reveal-d3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><div class="stat-num"><span class="count" data-target="2019" data-plain="1">0</span></div><div class="stat-label" data-i18n="st_est">Established Year</div></div>
+    <div class="stat reveal reveal-d3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><div class="stat-num"><span class="count" data-target="2015" data-plain="1">0</span></div><div class="stat-label" data-i18n="st_est">Established Year</div></div>
     <div class="stat reveal reveal-d4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="stat-num">24/7</div><div class="stat-label" data-i18n="st_sup">Support Available</div></div>
   </div>
 </section>
 
-<!-- ============ FULL SERVICES ============ -->
-<section class="services" id="all-services">
+<!-- ============ OUR WORKS ============ -->
+<section class="works" id="works">
   <div class="container">
-    <span class="section-label reveal" data-i18n="full_label">Full-cycle delivery</span>
-    <h2 class="reveal" data-i18n="full_h2">Everything Your Product Needs</h2>
-    <p class="section-sub reveal reveal-d1" data-i18n="full_sub">From the first sketch to long-term operations — one accountable partner.</p>
-    <div class="services-grid">
-      <article class="service-card reveal"><span class="num">01</span>
-        <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
-        <h3 data-i18n="s1_t">Software Development</h3>
-        <p data-i18n="s1_d">Building scalable, high-performance software tailored to business needs, ensuring security and seamless operation.</p>
-      </article>
-      <article class="service-card reveal reveal-d1"><span class="num">02</span>
-        <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="13.5" cy="6.5" r="2.5"/><path d="M17 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/><path d="M21 15l-5-5L5 21"/></svg></div>
-        <h3 data-i18n="s2_t">Design &amp; Prototyping</h3>
-        <p data-i18n="s2_d">Creating the right UI/UX, ensuring a seamless interaction between business goals and user needs.</p>
-      </article>
-      <article class="service-card reveal reveal-d2"><span class="num">03</span>
-        <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 10v6M4.2 4.2l4.3 4.3m7 7l4.3 4.3M1 12h6m10 0h6M4.2 19.8l4.3-4.3m7-7l4.3-4.3"/></svg></div>
-        <h3 data-i18n="s3_t">Consulting</h3>
-        <p data-i18n="s3_d">Providing expert guidance to optimize strategies, streamline processes, and drive digital transformation with confidence.</p>
-      </article>
-      <article class="service-card reveal reveal-d3"><span class="num">04</span>
-        <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3 data-i18n="s4_t">Managed Services</h3>
-        <p data-i18n="s4_d">Ensuring seamless IT operations with proactive monitoring, security, and scalable support tailored to your business.</p>
-      </article>
-      <article class="service-card reveal reveal-d4"><span class="num">05</span>
-        <div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="8" height="8" rx="2"/><rect x="14" y="14" width="8" height="8" rx="2"/><path d="M10 6h4a4 4 0 0 1 4 4v4M6 10v4a4 4 0 0 0 4 4h4"/></svg></div>
-        <h3 data-i18n="s5_t">System Integration</h3>
-        <p data-i18n="s5_d">Connecting technologies, streamlining workflows, and ensuring seamless data flow for efficient, future-ready operations.</p>
-      </article>
-      <article class="service-card reveal reveal-d5" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;background:var(--navy);border-color:var(--navy)">
-        <h3 style="color:#fff" data-i18n="s6_t">Not sure where to start?</h3>
-        <p style="color:rgba(255,255,255,.7)" data-i18n="s6_d">Tell us about your idea and we'll map the fastest route to launch.</p>
-        <a href="#contact" class="btn btn-gold" style="margin-top:18px" data-i18n="s6_cta">Talk to an Expert</a>
-      </article>
+    <span class="section-label reveal" data-i18n="wk_label">Our portfolio</span>
+    <h2 class="reveal" data-i18n="wk_h2">Our Works</h2>
+    <p class="section-sub reveal reveal-d1" data-i18n="wk_sub">Trusted by businesses across the UAE and the GCC.</p>
+    <div class="works-tabs reveal reveal-d1" role="group" aria-label="Filter works">
+      <button class="wtab active" data-filter="all" data-i18n="wk_all">All</button>
+      <button class="wtab" data-filter="app" data-i18n="wk_apps">Mobile Apps</button>
+      <button class="wtab" data-filter="web" data-i18n="wk_webs">Websites</button>
     </div>
+    <!-- Cards are generated automatically from the WORKS list in the script below.
+         To add a new project, scroll to "OUR WORKS DATA" in the script section at the bottom of this file. -->
+    <div class="works-grid" id="worksGrid"></div>
   </div>
 </section>
+
 <!-- ============ SOLUTIONS ============ -->
 <section class="solutions" id="solutions">
   <div class="container">
-    <span class="section-label reveal" data-i18n="sol_label">Specialized solutions</span>
+    <span class="section-label reveal" data-i18n="sol_label">More solutions</span>
     <h2 class="reveal" data-i18n="sol_h2">Technology That Works for You</h2>
     <div class="sol-grid">
       <article class="sol-card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a4 4 0 0 1 4 4 4 4 0 0 1 4 4v4a4 4 0 0 1-4 4 4 4 0 0 1-8 0 4 4 0 0 1-4-4v-4a4 4 0 0 1 4-4 4 4 0 0 1 4-4z"/><circle cx="12" cy="11" r="1.5"/></svg><h3 data-i18n="sol1_t">Artificial Intelligence</h3><p data-i18n="sol1_d">Crafting intelligent solutions with AI</p></article>
@@ -565,8 +630,8 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
     <div class="why-visual reveal">
       <div class="panel">
         <img src="data:image/webp;base64,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" alt="DUNE logo emblem">
-        <h3 data-i18n="why_panel_t">Built in Dubai. Trusted Worldwide.</h3>
-        <p data-i18n="why_panel_d">Since 2019, DUNE has helped startups and enterprises ship intelligent products that scale.</p>
+        <h3 data-i18n="why_panel_t">Established in UAE. Trusted Worldwide.</h3>
+        <p data-i18n="why_panel_d">Since 2015, DUNE has helped startups and enterprises ship intelligent products that scale.</p>
       </div>
       <div class="why-quote" data-i18n="why_quote">50+ projects · 80+ recurring clients</div>
     </div>
@@ -693,7 +758,7 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
 <section class="location" id="location">
   <div class="container">
     <span class="section-label reveal" data-i18n="loc_label">Our office</span>
-    <h2 class="reveal" data-i18n="loc_h2">DUNE — Based in Dubai</h2>
+    <h2 class="reveal" data-i18n="loc_h2">DUNE — Based in UAE</h2>
     <div class="loc-grid">
       <div class="loc-info">
         <div class="loc-card reveal"><div class="icon-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><strong data-i18n="loc_a_t">Address</strong><span class="val" data-i18n="ct_addr">Dubai, UAE</span></div></div>
@@ -714,7 +779,7 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
     <div class="footer-grid">
       <div class="footer-brand">
         <img src="data:image/webp;base64,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" alt="DUNE logo">
-        <p data-i18n="ft_about">DUNE is a Dubai-based AI services and mobile app development company helping businesses innovate with confidence.</p>
+        <p data-i18n="ft_about">DUNE is a UAE-based AI services and mobile app development company helping businesses innovate with confidence.</p>
         <div class="social-row">
           <a href="https://instagram.com/duneai" target="_blank" rel="noopener" aria-label="DUNE on Instagram">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor" stroke="none"/></svg>
@@ -730,7 +795,7 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
           <li><a href="#services" data-i18n="nav_services">Services</a></li>
           <li><a href="#about" data-i18n="nav_about">About</a></li>
           <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
-          <li><a href="#" data-i18n="ft_privacy">Privacy Policy</a></li>
+          <li><a href="#privacy" data-open-privacy data-i18n="ft_privacy">Privacy Policy</a></li>
         </ul>
       </div>
       <div>
@@ -745,7 +810,7 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
     </div>
     <div class="footer-bottom">
       <span data-i18n="ft_copy">DUNE AI© 2026 · All rights reserved</span>
-      <span><a href="#" data-i18n="ft_privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" data-i18n="ft_terms">Terms of Service</a></span>
+      <span><a href="#privacy" data-open-privacy data-i18n="ft_privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="#" data-i18n="ft_terms">Terms of Service</a></span>
     </div>
   </div>
 </footer>
@@ -757,6 +822,116 @@ html[dir="rtl"] .brand-name{letter-spacing:.08em}
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.89 1.22 3.09.15.2 2.11 3.22 5.1 4.51.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.58-.35M12.04 21.78h-.01a9.7 9.7 0 0 1-4.95-1.36l-.36-.21-3.68.97.98-3.59-.23-.37a9.72 9.72 0 0 1-1.49-5.18c0-5.38 4.38-9.76 9.76-9.76a9.7 9.7 0 0 1 6.9 2.86 9.7 9.7 0 0 1 2.86 6.91c0 5.38-4.38 9.76-9.78 9.76M20.35 3.7A11.66 11.66 0 0 0 12.04 .25C5.58.25.31 5.52.31 11.99c0 2.07.54 4.09 1.57 5.87L.21 24l6.27-1.64a11.74 11.74 0 0 0 5.56 1.41h.01c6.46 0 11.73-5.27 11.73-11.74 0-3.13-1.22-6.08-3.43-8.3"/></svg>
   </span>
 </a>
+
+<!-- ============ PRIVACY POLICY MODAL ============ -->
+<div class="modal-overlay" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="ppTitle">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="ppTitle" data-i18n="pp_title">Privacy Policy</h3>
+      <button class="modal-close" id="ppClose" aria-label="Close privacy policy">&times;</button>
+    </div>
+    <div class="modal-body">
+      <!-- English version -->
+      <div class="pp-en">
+        <p class="pp-meta">Last updated: June 2026</p>
+        <p>DUNE AI is committed to protecting your personal information and your right to privacy. This policy explains what we collect, how we use it, and the choices you have.</p>
+        <h4>1. Information We Collect</h4>
+        <p>When you visit our website or reach out to us, we may collect:</p>
+        <ul>
+          <li>Your name, email address and phone number when you submit our contact form</li>
+          <li>Details about your project or business requirements that you choose to share</li>
+          <li>Basic usage data such as pages viewed, time on site, and browser type</li>
+          <li>Records of our communication by email, phone, or WhatsApp</li>
+        </ul>
+        <h4>2. How We Use Your Information</h4>
+        <ul>
+          <li>To respond to enquiries and prepare proposals or quotations</li>
+          <li>To deliver and manage the services you request</li>
+          <li>To improve our website and the quality of our services</li>
+          <li>To send updates or offers you have opted in to receive</li>
+          <li>To comply with applicable legal and regulatory obligations</li>
+        </ul>
+        <h4>3. Information Sharing</h4>
+        <p>We never sell, trade, or rent your personal data. It may be disclosed only:</p>
+        <ul>
+          <li>To trusted service providers who help us operate our website and business, under confidentiality obligations</li>
+          <li>Where required by law, regulation, or legal process</li>
+          <li>To protect the rights, property, or safety of DUNE AI, our clients, or others</li>
+        </ul>
+        <h4>4. Cookies &amp; Tracking</h4>
+        <p>Our site may use cookies to remember your language choice, understand how visitors use the site, and improve the relevance of our content. You can manage or disable cookies in your browser settings, though some features may be affected.</p>
+        <h4>5. Data Security</h4>
+        <p>We apply appropriate technical and organizational safeguards, including HTTPS encryption, need-to-know access to personal data, and periodic reviews of our practices. No method of transmission over the internet is completely secure, so absolute security cannot be guaranteed.</p>
+        <h4>6. Third-Party Links</h4>
+        <p>Our website may link to external destinations such as client projects, app store listings, and embedded maps. Each operates under its own privacy policy, and we are not responsible for their content or practices.</p>
+        <h4>7. Your Rights</h4>
+        <ul>
+          <li>Request access to the personal data we hold about you</li>
+          <li>Ask us to correct inaccurate or incomplete details</li>
+          <li>Request deletion of your data, subject to legal requirements</li>
+          <li>Opt out of marketing communications at any time</li>
+        </ul>
+        <h4>8. Children's Privacy</h4>
+        <p>Our website and services are not aimed at children under 13, and we do not knowingly collect their information. If you believe a child has provided us data, please contact us and we will remove it.</p>
+        <h4>9. Changes to This Policy</h4>
+        <p>We may revise this policy from time to time. When we do, we will update the date shown at the top of this page. We encourage you to review it periodically.</p>
+        <h4>10. Contact Us</h4>
+        <p><strong>DUNE AI</strong> — Dubai, UAE<br>
+        Email: <a href="mailto:info@duneai.ae">info@duneai.ae</a><br>
+        Phone / WhatsApp: <a href="tel:+971522346020" style="direction:ltr;unicode-bidi:embed">+971 52 234 6020</a></p>
+      </div>
+      <!-- Arabic version -->
+      <div class="pp-ar">
+        <p class="pp-meta">آخر تحديث: يونيو 2026</p>
+        <p>تلتزم DUNE AI بحماية معلوماتك الشخصية وحقك في الخصوصية. توضح هذه السياسة ما نجمعه من بيانات، وكيف نستخدمها، والخيارات المتاحة لك.</p>
+        <h4>1. المعلومات التي نجمعها</h4>
+        <p>عند زيارة موقعنا أو التواصل معنا، قد نجمع ما يلي:</p>
+        <ul>
+          <li>اسمك وبريدك الإلكتروني ورقم هاتفك عند تعبئة نموذج التواصل</li>
+          <li>التفاصيل التي تشاركها حول مشروعك أو احتياجات عملك</li>
+          <li>بيانات استخدام أساسية مثل الصفحات التي تمت زيارتها ونوع المتصفح</li>
+          <li>سجلات تواصلنا عبر البريد الإلكتروني أو الهاتف أو واتساب</li>
+        </ul>
+        <h4>2. كيف نستخدم معلوماتك</h4>
+        <ul>
+          <li>للرد على استفساراتك وإعداد العروض وعروض الأسعار</li>
+          <li>لتقديم وإدارة الخدمات التي تطلبها</li>
+          <li>لتحسين موقعنا وجودة خدماتنا</li>
+          <li>لإرسال التحديثات أو العروض التي اشتركت في استلامها</li>
+          <li>للامتثال للالتزامات القانونية والتنظيمية المعمول بها</li>
+        </ul>
+        <h4>3. مشاركة المعلومات</h4>
+        <p>لا نبيع بياناتك الشخصية ولا نتاجر بها ولا نؤجرها مطلقاً. وقد يتم الإفصاح عنها فقط في الحالات التالية:</p>
+        <ul>
+          <li>لمزودي خدمات موثوقين يساعدوننا في تشغيل موقعنا وأعمالنا، وفق التزامات سرية</li>
+          <li>عندما يقتضي القانون أو الأنظمة أو الإجراءات القانونية ذلك</li>
+          <li>لحماية حقوق أو ممتلكات أو سلامة DUNE AI أو عملائنا أو الآخرين</li>
+        </ul>
+        <h4>4. ملفات تعريف الارتباط والتتبع</h4>
+        <p>قد يستخدم موقعنا ملفات تعريف الارتباط لتذكّر لغتك المفضلة وفهم كيفية استخدام الزوار للموقع وتحسين ملاءمة المحتوى. يمكنك إدارتها أو تعطيلها من إعدادات المتصفح، مع العلم أن بعض الميزات قد تتأثر.</p>
+        <h4>5. أمن البيانات</h4>
+        <p>نطبق ضوابط تقنية وتنظيمية مناسبة تشمل تشفير HTTPS وتقييد الوصول إلى البيانات الشخصية والمراجعة الدورية لممارساتنا. ومع ذلك، لا توجد وسيلة نقل عبر الإنترنت آمنة تماماً، لذا لا يمكننا ضمان الأمان المطلق.</p>
+        <h4>6. روابط الجهات الخارجية</h4>
+        <p>قد يحتوي موقعنا على روابط لوجهات خارجية مثل مشاريع عملائنا وصفحات متاجر التطبيقات والخرائط المضمّنة. تخضع كل منها لسياسة خصوصية خاصة بها، ولسنا مسؤولين عن محتواها أو ممارساتها.</p>
+        <h4>7. حقوقك</h4>
+        <ul>
+          <li>طلب الاطلاع على البيانات الشخصية التي نحتفظ بها عنك</li>
+          <li>طلب تصحيح البيانات غير الدقيقة أو غير المكتملة</li>
+          <li>طلب حذف بياناتك، مع مراعاة المتطلبات القانونية</li>
+          <li>إلغاء الاشتراك في الرسائل التسويقية في أي وقت</li>
+        </ul>
+        <h4>8. خصوصية الأطفال</h4>
+        <p>موقعنا وخدماتنا غير موجهين للأطفال دون سن 13 عاماً، ولا نجمع معلوماتهم عن قصد. إذا كنت تعتقد أن طفلاً قد زوّدنا ببيانات، فيرجى التواصل معنا وسنقوم بحذفها.</p>
+        <h4>9. التغييرات على هذه السياسة</h4>
+        <p>قد نقوم بتحديث هذه السياسة من وقت لآخر، وعند القيام بذلك سنحدّث التاريخ المبيّن أعلى هذه الصفحة. ننصحك بمراجعتها بشكل دوري.</p>
+        <h4>10. تواصل معنا</h4>
+        <p><strong>DUNE AI</strong> — دبي، الإمارات العربية المتحدة<br>
+        البريد الإلكتروني: <a href="mailto:info@duneai.ae">info@duneai.ae</a><br>
+        الهاتف / واتساب: <a href="tel:+971522346020" style="direction:ltr;unicode-bidi:embed">+971 52 234 6020</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Toast -->
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -772,7 +947,7 @@ en:{
   hero_h1:'Innovation with <span class="gold">Confidence.</span><br>Impact Without <span class="gold">Delay.</span>',
   hero_sub:"We develop advanced solutions in the ever-evolving space of AI and Mobile App Development",
   hero_cta:"Book a Free Discovery Call", hero_cta2:"Explore Services",
-  badge_iso:"ISO 9001 Certified", badge_sec:"ISO 27001 Security", badge_rated:"Top-Rated in Dubai",
+  badge_iso:"Mobile App Development", badge_sec:"AI Developments", badge_rated:"Top-Rated in UAE",
   chip_ai:"AI / ML", chip_app:"Mobile Apps", scroll:"Scroll",
   feat_label:"What we do best", feat_h2:"Core Expertise",
   feat_sub:"Two disciplines. One mission: products that move your business forward.",
@@ -780,17 +955,15 @@ en:{
   svc_ai_d:"Crafting smart algorithms, automating tasks, and scaling ML to spur swift business growth and insights.",
   svc_app_t:"Mobile App Development",
   svc_app_d:"Building scalable, high-performance mobile applications tailored to business needs, ensuring seamless user experience and rapid deployment.",
-  learn:"Learn More",
-  st_eng:"Engineers in Team", st_cust:"Recurring Customers", st_proj:"Projects Delivered", st_est:"Established Year", st_sup:"Support Available",
-  full_label:"Full-cycle delivery", full_h2:"Everything Your Product Needs",
-  full_sub:"From the first sketch to long-term operations — one accountable partner.",
-  s1_t:"Software Development", s1_d:"Building scalable, high-performance software tailored to business needs, ensuring security and seamless operation.",
-  s2_t:"Design & Prototyping", s2_d:"Creating the right UI/UX, ensuring a seamless interaction between business goals and user needs.",
-  s3_t:"Consulting", s3_d:"Providing expert guidance to optimize strategies, streamline processes, and drive digital transformation with confidence.",
-  s4_t:"Managed Services", s4_d:"Ensuring seamless IT operations with proactive monitoring, security, and scalable support tailored to your business.",
-  s5_t:"System Integration", s5_d:"Connecting technologies, streamlining workflows, and ensuring seamless data flow for efficient, future-ready operations.",
-  s6_t:"Not sure where to start?", s6_d:"Tell us about your idea and we'll map the fastest route to launch.", s6_cta:"Talk to an Expert",
-  sol_label:"Specialized solutions", sol_h2:"Technology That Works for You",
+  st_cust:"Recurring Customers", st_proj:"Projects Delivered", st_est:"Established Year", st_sup:"Support Available",
+  wk_label:"Our portfolio", wk_h2:"Our Works",
+  wk_sub:"Trusted by businesses across the UAE and the GCC.",
+  wk_all:"All", wk_apps:"Mobile Apps", wk_webs:"Websites",
+  cat_app:"Mobile Application", cat_web:"E-Commerce Website",
+  wk_play:"Play Store", wk_appstore:"App Store", wk_visit:"Visit Website",
+  uae_caption:"Proudly serving the UAE since 2015",
+  pp_title:"Privacy Policy",
+  sol_label:"More solutions", sol_h2:"Technology That Works for You",
   sol1_t:"Artificial Intelligence", sol1_d:"Crafting intelligent solutions with AI",
   sol2_t:"Cloud Native Solutions", sol2_d:"Modern cloud architecture",
   sol3_t:"Machine Learning", sol3_d:"Advanced ML implementations",
@@ -798,8 +971,8 @@ en:{
   sol5_t:"IoT Solutions", sol5_d:"Internet of Things integration",
   sol6_t:"Mobile App Solutions", sol6_d:"Cross-platform mobile development",
   why_label:"About us", why_h2:"Why Choose DUNE?",
-  why_panel_t:"Built in Dubai. Trusted Worldwide.",
-  why_panel_d:"Since 2019, DUNE has helped startups and enterprises ship intelligent products that scale.",
+  why_panel_t:"Established in UAE. Trusted Worldwide.",
+  why_panel_d:"Since 2015, DUNE has helped startups and enterprises ship intelligent products that scale.",
   why_quote:"50+ projects · 80+ recurring clients",
   w1_t:"Experienced Team", w1_d:"Deep expertise in AI and Mobile Development",
   w2_t:"Proven Track Record", w2_d:"50+ successful projects delivered",
@@ -824,9 +997,9 @@ en:{
   cs_b1:"We'll explain how we work", cs_b2:"We'll answer your questions",
   cs_b3:"We'll help draft a tech spec", cs_b4:"We'll conduct an initial assessment",
   cs_min:"min", cs_card:"Free strategy session with a senior engineer — zero obligation.", cs_cta:"Get an Offer",
-  loc_label:"Our office", loc_h2:"DUNE — Based in Dubai",
+  loc_label:"Our office", loc_h2:"DUNE — Based in UAE",
   loc_a_t:"Address", loc_e_t:"Email", loc_p_t:"Phone",
-  ft_about:"DUNE is a Dubai-based AI services and mobile app development company helping businesses innovate with confidence.",
+  ft_about:"DUNE is a UAE-based AI services and mobile app development company helping businesses innovate with confidence.",
   ft_quick:"Quick Links", ft_contact:"Contact", ft_privacy:"Privacy Policy", ft_terms:"Terms of Service",
   ft_copy:"DUNE AI© 2026 · All rights reserved",
   wa_tip:"Chat with us on WhatsApp"
@@ -838,7 +1011,7 @@ ar:{
   hero_h1:'ابتكار <span class="gold">بثقة.</span><br>وتأثير <span class="gold">بلا تأخير.</span>',
   hero_sub:"نطوّر حلولاً متقدمة في عالم الذكاء الاصطناعي وتطوير تطبيقات الجوال المتسارع",
   hero_cta:"احجز مكالمة استكشافية مجانية", hero_cta2:"استكشف خدماتنا",
-  badge_iso:"معتمدون ISO 9001", badge_sec:"أمان ISO 27001", badge_rated:"الأعلى تقييماً في دبي",
+  badge_iso:"تطوير تطبيقات الجوال", badge_sec:"تطوير الذكاء الاصطناعي", badge_rated:"الأعلى تقييماً في الإمارات",
   chip_ai:"ذكاء اصطناعي", chip_app:"تطبيقات الجوال", scroll:"مرّر",
   feat_label:"ما نتقنه", feat_h2:"خبراتنا الأساسية",
   feat_sub:"تخصصان، ومهمة واحدة: منتجات تدفع أعمالك إلى الأمام.",
@@ -846,17 +1019,15 @@ ar:{
   svc_ai_d:"نصمم خوارزميات ذكية، ونؤتمت المهام، ونوسّع نطاق تعلم الآلة لتحقيق نمو سريع ورؤى أعمق لأعمالك.",
   svc_app_t:"تطوير تطبيقات الجوال",
   svc_app_d:"نبني تطبيقات جوال عالية الأداء وقابلة للتوسع، مصممة خصيصاً لاحتياجات عملك مع تجربة مستخدم سلسة وإطلاق سريع.",
-  learn:"اعرف المزيد",
-  st_eng:"مهندس في الفريق", st_cust:"عميل دائم", st_proj:"مشروع منجز", st_est:"سنة التأسيس", st_sup:"دعم متواصل",
-  full_label:"تنفيذ متكامل", full_h2:"كل ما يحتاجه منتجك",
-  full_sub:"من أول فكرة وحتى التشغيل طويل الأمد — شريك واحد مسؤول.",
-  s1_t:"تطوير البرمجيات", s1_d:"نبني برمجيات عالية الأداء وقابلة للتوسع، مصممة لاحتياجات عملك مع ضمان الأمان والتشغيل السلس.",
-  s2_t:"التصميم والنماذج الأولية", s2_d:"نصمم تجربة وواجهة مستخدم مثالية تضمن توافقاً سلساً بين أهداف العمل واحتياجات المستخدمين.",
-  s3_t:"الاستشارات", s3_d:"نقدم إرشاداً متخصصاً لتحسين الاستراتيجيات وتبسيط العمليات وقيادة التحول الرقمي بثقة.",
-  s4_t:"الخدمات المُدارة", s4_d:"نضمن عمليات تقنية سلسة مع مراقبة استباقية وأمان ودعم قابل للتوسع حسب احتياجات عملك.",
-  s5_t:"تكامل الأنظمة", s5_d:"نربط التقنيات ونبسّط سير العمل ونضمن تدفق البيانات بسلاسة لعمليات فعالة وجاهزة للمستقبل.",
-  s6_t:"لست متأكداً من أين تبدأ؟", s6_d:"أخبرنا عن فكرتك وسنرسم لك أسرع طريق نحو الإطلاق.", s6_cta:"تحدث مع خبير",
-  sol_label:"حلول متخصصة", sol_h2:"تقنيات تعمل من أجلك",
+  st_cust:"عميل دائم", st_proj:"مشروع منجز", st_est:"سنة التأسيس", st_sup:"دعم متواصل",
+  wk_label:"معرض الأعمال", wk_h2:"أعمالنا",
+  wk_sub:"موثوقون من شركات في الإمارات ودول الخليج.",
+  wk_all:"الكل", wk_apps:"تطبيقات الجوال", wk_webs:"مواقع إلكترونية",
+  cat_app:"تطبيق جوال", cat_web:"موقع تجارة إلكترونية",
+  wk_play:"جوجل بلاي", wk_appstore:"آب ستور", wk_visit:"زيارة الموقع",
+  uae_caption:"نخدم الإمارات بفخر منذ 2015",
+  pp_title:"سياسة الخصوصية",
+  sol_label:"المزيد من الحلول", sol_h2:"تقنيات تعمل من أجلك",
   sol1_t:"الذكاء الاصطناعي", sol1_d:"حلول ذكية مدعومة بالذكاء الاصطناعي",
   sol2_t:"حلول سحابية حديثة", sol2_d:"بنية سحابية عصرية",
   sol3_t:"تعلم الآلة", sol3_d:"تطبيقات متقدمة لتعلم الآلة",
@@ -864,8 +1035,8 @@ ar:{
   sol5_t:"إنترنت الأشياء", sol5_d:"تكامل أجهزة إنترنت الأشياء",
   sol6_t:"حلول تطبيقات الجوال", sol6_d:"تطوير تطبيقات متعددة المنصات",
   why_label:"من نحن", why_h2:"لماذا تختار DUNE؟",
-  why_panel_t:"وُلدنا في دبي. وموثوقون عالمياً.",
-  why_panel_d:"منذ 2019، ساعدت DUNE الشركات الناشئة والمؤسسات على إطلاق منتجات ذكية قابلة للتوسع.",
+  why_panel_t:"تأسسنا في الإمارات. وموثوقون عالمياً.",
+  why_panel_d:"منذ 2015، ساعدت DUNE الشركات الناشئة والمؤسسات على إطلاق منتجات ذكية قابلة للتوسع.",
   why_quote:"+50 مشروعاً · +80 عميلاً دائماً",
   w1_t:"فريق ذو خبرة", w1_d:"خبرة عميقة في الذكاء الاصطناعي وتطوير تطبيقات الجوال",
   w2_t:"سجل حافل بالنجاح", w2_d:"أكثر من 50 مشروعاً ناجحاً تم تسليمه",
@@ -890,9 +1061,9 @@ ar:{
   cs_b1:"سنشرح لك آلية عملنا", cs_b2:"سنجيب على جميع أسئلتك",
   cs_b3:"سنساعدك في إعداد المواصفات التقنية", cs_b4:"سنجري تقييماً أولياً لمشروعك",
   cs_min:"دقيقة", cs_card:"جلسة استراتيجية مجانية مع مهندس أول — دون أي التزام.", cs_cta:"احصل على عرض",
-  loc_label:"مكتبنا", loc_h2:"DUNE — مقرنا في دبي",
+  loc_label:"مكتبنا", loc_h2:"DUNE — مقرنا في الإمارات",
   loc_a_t:"العنوان", loc_e_t:"البريد الإلكتروني", loc_p_t:"الهاتف",
-  ft_about:"DUNE شركة مقرها دبي متخصصة في خدمات الذكاء الاصطناعي وتطوير تطبيقات الجوال، تساعد الشركات على الابتكار بثقة.",
+  ft_about:"DUNE شركة مقرها الإمارات متخصصة في خدمات الذكاء الاصطناعي وتطوير تطبيقات الجوال، تساعد الشركات على الابتكار بثقة.",
   ft_quick:"روابط سريعة", ft_contact:"تواصل معنا", ft_privacy:"سياسة الخصوصية", ft_terms:"شروط الخدمة",
   ft_copy:"DUNE AI© 2026 · جميع الحقوق محفوظة",
   wa_tip:"تواصل معنا عبر واتساب"
@@ -931,6 +1102,80 @@ function applyLang(next){
   });
 }
 langToggle.addEventListener("click", ()=> applyLang(lang === "en" ? "ar" : "en"));
+
+/* ================= OUR WORKS DATA =================
+   HOW TO ADD A NEW PROJECT — add one object to the WORKS list:
+   {
+     name: "Project Name",
+     cat:  "app"  (Mobile App)  or  "web"  (Website),
+     img:  "https://... cover image URL"  (or "" for an automatic placeholder),
+     play: "https://play.google.com/..."   <- optional, Play Store link
+     appstore: "https://apps.apple.com/..."<- optional, App Store link
+     site: "https://..."                   <- optional, website link
+   }
+   Save the file — the card, filtering and translations are automatic.
+================================================== */
+const WORKS = [
+  {name:"ALHOR APP", cat:"app", img:"https://cyberpixel.sa/cdn/shop/files/alhor.png?v=1765373857", play:"https://play.google.com/store/apps/details?id=com.halfmad.alhor.app", appstore:"https://apps.apple.com/gb/app/alhor/id1664758845"},
+  {name:"Phone7m", cat:"app", img:"https://cyberpixel.sa/cdn/shop/files/Phone7m.webp?v=1765373863", play:"https://play.google.com/store/apps/details?id=com.codingeagle.phone7m", appstore:"https://apps.apple.com/us/app/phone7m-find-excellence/id6504747136"},
+  {name:"Tech Verge", cat:"app", img:"https://cyberpixel.sa/cdn/shop/files/Tech_verge.webp?v=1765373856", play:"https://play.google.com/store/apps/details?id=com.codingeagle.techVerge&hl=en", appstore:"https://apps.apple.com/ph/app/techverge/id6520393543"},
+  {name:"Cathydoll", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Cathydoll.webp?v=1765373849", site:"https://cathydoll.me/"},
+  {name:"Ajwaa Perfumes", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Ajwaa.webp?v=1765373835", site:"https://ajwaaperfumes.com/"},
+  {name:"Tamr wa Qahwa", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Tamrq.webp?v=1765373837", site:"https://tamrq.ae/"},
+  {name:"SK Cosmetics", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/SkCosmetics_2ee320cd-07cd-4153-a981-6e7d3b25ca1c.webp?v=1765373858", site:"https://skcosmetics.me/"},
+  {name:"Mohamad Oud", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Mohammad_Oud.webp?v=1765373844", site:"https://mohammedoud.ae/"},
+  {name:"KinStore", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Kinstore.webp?v=1765373841", site:"https://kinstore.ae/"},
+  {name:"Kayan", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/Kayan.webp?v=1765373842", site:"https://kayan.ae/"},
+  {name:"Diva Lady", cat:"web", img:"https://cyberpixel.sa/cdn/shop/files/divalady.webp?v=1765373847", site:"https://divalady.me/"}
+];
+
+const worksGrid = document.getElementById("worksGrid");
+const extIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14L21 3"/></svg>';
+
+function renderWorks(){
+  const t = I18N[lang];
+  const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+  worksGrid.innerHTML = WORKS.map((w,i)=>{
+    const catKey = w.cat === "app" ? "cat_app" : "cat_web";
+    const links =
+      (w.play ? '<a href="'+esc(w.play)+'" target="_blank" rel="noopener">'+extIcon+'<span data-i18n="wk_play">'+t.wk_play+'</span></a>' : '') +
+      (w.appstore ? '<a href="'+esc(w.appstore)+'" target="_blank" rel="noopener">'+extIcon+'<span data-i18n="wk_appstore">'+t.wk_appstore+'</span></a>' : '') +
+      (w.site ? '<a href="'+esc(w.site)+'" target="_blank" rel="noopener">'+extIcon+'<span data-i18n="wk_visit">'+t.wk_visit+'</span></a>' : '');
+    const initials = w.name.split(" ").map(s=>s[0]).join("").slice(0,3).toUpperCase();
+    const thumb = w.img
+      ? '<img src="'+esc(w.img)+'" alt="'+esc(w.name)+'" loading="lazy">'
+      : '<div class="ph">'+initials+'</div>';
+    const delay = i%3===1 ? " reveal-d1" : i%3===2 ? " reveal-d2" : "";
+    return '<article class="work-card reveal'+delay+'" data-cat="'+w.cat+'" data-initials="'+initials+'">'+
+      '<div class="work-thumb">'+thumb+'</div>'+
+      '<div class="work-body"><h3>'+esc(w.name)+'</h3>'+
+      '<span class="work-cat" data-i18n="'+catKey+'">'+t[catKey]+'</span>'+
+      '<div class="work-links">'+links+'</div></div></article>';
+  }).join("");
+  // image fallback -> placeholder with initials
+  worksGrid.querySelectorAll(".work-thumb img").forEach(img=>{
+    img.addEventListener("error", ()=>{
+      const card = img.closest(".work-card");
+      const ph = document.createElement("div");
+      ph.className = "ph";
+      ph.textContent = card.dataset.initials;
+      img.replaceWith(ph);
+    });
+  });
+}
+renderWorks();
+
+document.querySelectorAll(".wtab").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".wtab").forEach(b=> b.classList.toggle("active", b===btn));
+    const f = btn.dataset.filter;
+    worksGrid.querySelectorAll(".work-card").forEach(c=>{
+      c.classList.toggle("hide", f !== "all" && c.dataset.cat !== f);
+      c.classList.add("in");
+    });
+  });
+});
+
 
 /* ================= NAV ================= */
 const nav = document.getElementById("nav");
@@ -1097,6 +1342,26 @@ function submitForm(){
   }
 }
 form.addEventListener("submit", e=>{ e.preventDefault(); submitForm(); });
+
+
+/* ================= PRIVACY POLICY MODAL ================= */
+const ppOverlay = document.getElementById("privacyModal");
+const ppClose = document.getElementById("ppClose");
+function openPP(){
+  ppOverlay.classList.add("open");
+  document.body.classList.add("modal-open");
+  ppClose.focus();
+}
+function closePP(){
+  ppOverlay.classList.remove("open");
+  document.body.classList.remove("modal-open");
+}
+document.querySelectorAll("[data-open-privacy]").forEach(a=>{
+  a.addEventListener("click", e=>{ e.preventDefault(); openPP(); });
+});
+ppClose.addEventListener("click", closePP);
+ppOverlay.addEventListener("click", e=>{ if(e.target === ppOverlay) closePP(); });
+document.addEventListener("keydown", e=>{ if(e.key === "Escape") closePP(); });
 
 /* ================= SMOOTH SCROLL OFFSET ================= */
 document.querySelectorAll('a[href^="#"]').forEach(a=>{

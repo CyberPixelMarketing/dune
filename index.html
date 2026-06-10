@@ -1317,16 +1317,36 @@ function submitForm(){
 
   const payload = Object.fromEntries(new FormData(form).entries());
 
-  /* ===== BACKEND HOOK =====
-     Replace the simulated block below with a real endpoint, e.g.:
-     fetch("/api/contact", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload)})
-       .then(r=>{ if(!r.ok) throw new Error(); onSuccess(); })
-       .catch(onError);
+  /* ===== FORM DELIVERY (FormSubmit.co) =====
+     Submissions are emailed to ahmadmuhanna@gmail.com
+     and CC'd to kha1fan17@hotmail.com — no backend needed.
+     NOTE: the very first submission triggers a one-time activation
+     email from FormSubmit to ahmadmuhanna@gmail.com. Click the
+     confirmation link in it once, and all future submissions
+     will be delivered automatically.
+     To change recipients later: edit FORM_ENDPOINT and the _cc value below.
   */
-  setTimeout(()=>{
-    console.log("Form payload:", payload);
-    onSuccess();
-  }, 1400);
+  const FORM_ENDPOINT = "https://formsubmit.co/ajax/ahmadmuhanna@gmail.com";
+  fetch(FORM_ENDPOINT, {
+    method: "POST",
+    headers: {"Content-Type": "application/json", "Accept": "application/json"},
+    body: JSON.stringify({
+      _subject: "New enquiry from DUNE website — " + payload.name,
+      _cc: "kha1fan17@hotmail.com",
+      _template: "table",
+      _captcha: "false",
+      "Full Name": payload.name,
+      "Email": payload.email,
+      "Phone": payload.phone,
+      "Project Type": payload.type || "—",
+      "Message": payload.message,
+      "Budget": payload.budget || "—",
+      "Timeline": payload.timeline || "—"
+    })
+  })
+  .then(r => { if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(() => onSuccess())
+  .catch(onError);
 
   function onSuccess(){
     submitBtn.classList.remove("loading");

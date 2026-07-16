@@ -1470,6 +1470,14 @@ ppClose.addEventListener("click", closePP);
 ppOverlay.addEventListener("click", e=>{ if(e.target === ppOverlay) closePP(); });
 document.addEventListener("keydown", e=>{ if(e.key === "Escape") closePP(); });
 
+/* ================= URL LANGUAGE PARAM (for ads: ?lang=ar) ================= */
+(function(){
+  try{
+    const p = new URLSearchParams(window.location.search).get("lang");
+    if(p && p.toLowerCase() === "ar") applyLang("ar");
+  }catch(e){}
+})();
+
 /* ================= SMOOTH SCROLL OFFSET ================= */
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
   a.addEventListener("click", e=>{
